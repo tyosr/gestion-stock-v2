@@ -2,8 +2,8 @@
 // Azure SQL – connexion PDO via driver Microsoft sqlsrv
 $host = getenv('DB_HOST') ?: 'gsql-v2-959.database.windows.net';
 $db   = getenv('DB_NAME') ?: 'gestionstock_v2';
-$user = getenv('DB_USER') ?: 'sqladmin';
-$pass = getenv('DB_PASS') ?: 'Azure@123456';
+$user = getenv('DB_USER') ?: 'CloudSA4421af60';
+$pass = getenv('DB_PASS') ?: 'MotDePasse123';
 $port = 1433;
 
 try {
